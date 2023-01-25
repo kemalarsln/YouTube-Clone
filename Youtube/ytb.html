@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ytb.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <title>YouTube</title>
+</head>
+    <body>
+        <header>
+            <div id="start">
+                <button class="buttonsolid" id="menu"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+                <a href="#"><img height="30px"; title="YouTube Ana Sayfası" id="logo" src="logo.png" alt="logo"></a>
+            </div>
+            <div id="center">
+                <input type="search" placeholder="Ara">
+                <button title="Ara" id="searchbtn" class="buttonsolid" type="submit" value="Ara"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+                <button title="Sesle Arama Yapın" id="micbtn" class="buttonsolid" type="button" value="Mic"><i class="fa fa-microphone fa-2x" aria-hidden="true"></i></button> 
+            </div>
+            <div id="end">
+                <button title="Oluştur" id="ebtn1" class="buttonsolid" type="button"><i class="fa fa-video-camera fa-2x" aria-hidden="true"></i></button>
+                <button title="Bildirimler" id="ebtn2" class="buttonsolid" type="button"><i class="fa fa-bell fa-2x" aria-hidden="true"></i></button>
+                <a href="#"><img src="admin.jpg" alt="admin"></a>
+            </div>
+        </header>
+        <aside>
+            <div id="aside1" class="menuler">
+                <a href="#anasayfa"><div>
+                    <i class="fa fa-home fa-2x" aria-hidden="true"></i><p>Ana Sayfa</p>
+                </div></a>
+                <a href="#shorts"><div>
+                    <i class="fa fa-play-circle-o fa-2x" aria-hidden="true"></i><p>Shorts</p>
+                </div></a>
+                <a href="#abonelikler"><div>
+                    <i class="fa fa-stack-overflow fa-2x" aria-hidden="true"></i><p>Abonelikler</p>
+                </div></a>
+            </div>
+            <hr>
+            <div class="menuler">
+                <a href="#kitaplik"><div>
+                    <i class="fa fa-book fa-2x" aria-hidden="true"></i><p>Kitaplık</p>
+                </div></a>
+                <a href="#gecmis"><div>
+                    <i class="fa fa-history fa-2x" aria-hidden="true"></i></i><p>Geçmiş</p>
+                </div></a>
+                <a href="#videolariniz"><div>
+                    <i class="fa fa-pause-circle-o fa-2x" aria-hidden="true"></i></i><p>Videolarınız</p>
+                </div></a>
+                <a href="#dsizle"><div>
+                    <i class="fa fa-clock-o fa-2x" aria-hidden="true"></i></i><p>Daha sonra izle</p>
+                </div></a>
+                <a href="#begendigimvideolar"><div>
+                    <i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i><p>Beğendiğin videolar</p>
+                </div></a>
+            </div>
+            <hr>
+            <div id="abone" class="menuler">
+                <h3>ABONELİKLER</h3>
+                <a href="#mami"><div>
+                    <img src="mami.jpg" alt="mami" width="24px"><p>Muhammed CEYLAN</p>
+                </div></a>
+                <a href="#furkan"><div>
+                    <img src="furkan.jpg" alt="furkan" width="24px"><p>Furkan ASLAN</p>
+                </div></a>
+                <a href="#baris"><div>
+                    <img src="barıs.jpg" alt="baris" width="24px"><p>Barış Özcan</p>
+                </div></a>
+                <a href="#abc"><div>
+                    <img src="abc.jpg" alt="abc" width="24px"><p>Mentalité Ingénieur</p>
+                </div></a>
+                <a href="#def"><div>
+                    <img src="def.jpg" alt="def" width="24px"><p>Online Eğitim</p>
+                </div></a>
+                <a href="#gozat"><div>
+                    <i class="fa fa-plus-square-o fa-2x" aria-hidden="true"></i><p>Kanallara gözat</p>
+                </div></a>
+            </div>
+            <hr>
+            <div class="menuler">
+                <h3>KEŞFET</h3>
+                <a href="#trendler"><div>
+                    <i class="fa fa-fire fa-2x" aria-hidden="true"></i><p>Trendler</p>
+                </div></a>
+                <a href="#"><div>
+                    <i class="fa fa-music fa-2x" aria-hidden="true"></i><p>Müzik</p>
+                </div></a>
+                <a href="#canlıyayın"><div>
+                    <i class="fa fa-signal fa-2x" aria-hidden="true"></i><p>Canlı yayın</p>
+                </div></a>
+                <a href="#game"><div>
+                    <i class="fa fa-gamepad fa-2x" aria-hidden="true"></i><p>Oyun</p>
+                </div></a>
+                <a href="#spor"><div>
+                    <i class="fa fa-trophy fa-2x" aria-hidden="true"></i><p>Spor</p>
+                </div></a>
+            </div>
+            <hr>
+            <div class="menuler">
+                <a href="#ayarlar"><div>
+                    <i class="fa fa-cog fa-2x" aria-hidden="true"></i><p>Ayarlar</p>
+                </div></a>
+                <a href="#ibgecmisi"><div>
+                    <i class="fa fa-flag fa-2x" aria-hidden="true"></i><p>İçerik bildirme geçmişi</p>
+                </div></a>
+                <a href="#yardım"><div>
+                    <i class="fa fa-question fa-2x" aria-hidden="true"></i><p>Yardım</p>
+                </div></a>
+                <a href="#gbildirim"><div>
+                    <i class="fa fa-info fa-2x" aria-hidden="true"></i><p>Geri bildirim gönder</p>
+                </div></a>
+                <hr><br>
+                <h3> <a href="#">Hakkında</a> <a href="#">Basın</a> <a href="#">Telif hakkı</a> <a href="#">Bize ulaşın</a> <a href="#">İçerik Üreticiler</a> <a href="#">Reklam verme</a>
+                   <a href="">Geliştiriciler</a>  <br><br>
+                    <a href="#">Şartlar</a> <a href="#">Gizlilik</a> <a href="#">Politika ve Güvenlik</a>
+                    <a href="#">YouTube Nasıl Çalışıyor?</a> <a href="#">Yeni özellikleri deneyin</a> 
+                </h3>
+                <br><br>
+                <p id="kemal">© 2023 Kemal ARSLN</p>
+            </div>
+        </aside>
+        <article>
+            <nav>
+                <ul>
+                    <a href="#"><li>Tümü</li></a>
+                    <a href="#"><li>Mix'ler</li></a>
+                    <a href="#"><li>Komedi skeç gösterileri</li></a>
+                    <a href="#"><li>Canlı</li></a>
+                    <a href="#"><li>Oyun</li></a>
+                    <a href="#"><li>Matematik</li></a>
+                    <a href="#"><li>Futbol</li></a>
+                    <a href="#"><li>Eğitim</li></a>
+                    <a href="#"><li>Çizgi filmler</li></a>
+                    <a href="#"><li>Rap yapma</li></a>
+                    <a href="#"><li>İzlenenler</li></a>
+                    <a href="#"><li>Yeni önerilenler</li></a>
+                </ul>
+            </nav>
+            <div class="conteiner">
+                <table id="videolar">
+                    <tr>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="staj.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="mami.jpg" alt=""></td>
+                                    <td><p id="videoa">Yazılım Staj yeri nasıl bulunur?🤔.</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Muhammed CEYLAN</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">250 görüntülenme <b><sup>.</sup></b> 2 ay önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="kitap.JPG" alt="kitap"></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="furkan.jpg" alt=""></td>
+                                    <td><p id="videoa">ŞAİRLER ÇOK YALAN SÖYLER | Friedrich Wilhelm...</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Furkan ASLAN</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">500 görüntülenme <b><sup>.</sup></b> 5 gün önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="ronaldo.JPG" alt="Ronaldo Messi düellosu"></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="bein.jpg" alt=""></td>
+                                    <td><p id="videoa">Ronaldo-Messi Düellosu | Al-Hilal & Al-Nassr Karması 4-5...</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">BeIN SPORTS Türkiye <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">1,9 Mn görüntülenme <b><sup>.</sup></b> 5 gün önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="ssavas.JPG" alt="Soğuk Savaş"></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="soguks.jpg" alt="Kanalın fotosu"></td>
+                                    <td><p id="videoa">GÜLERSEN KAYBEDERSİN w/ İllegal Hayatlar Ekibi...</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Soğuk Savaş <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">1,5 Mn görüntülenme <b><sup>.</sup></b> 7 gün önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="dünya.JPG" alt="Barış Özcan videosu"></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="barıs.jpg" alt=""></td>
+                                    <td><p id="videoa">Dünya yuvarlak değildir!</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Barış Özcan  <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">935 B görüntülenme <b><sup>.</sup></b> 3 ay önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="konusanlar.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="hsncn.jpg" alt=""></td>
+                                    <td><p id="videoa">Konuşanlar 92. Bölüm Shot</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Konuşanlar <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">2,3 Mn görüntülenme <b><sup>.</sup></b> 10 gün önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="mhsn.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="onedio.jpg" alt=""></td>
+                                    <td><p id="videoa">"Röportaj Adam" Mahsun Karaca Sosyal Medyadan...</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">BeIN SPORTS Türkiye <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">1,5 Mn görüntülenme <b><sup>.</sup></b> 5 ay önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="motor.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="abc.jpg" alt=""></td>
+                                    <td><p id="videoa">Comment Fonctionnent les Moteurs Électriques...</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Mentalité Ingénieur</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">1,1 Mn görüntülenme <b><sup>.</sup></b> 1 yıl önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="çghb.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="bkm.jpg" alt=""></td>
+                                    <td><p id="videoa">Çok Özel Okullar Bunlar (133.Bölüm) - Çok Güzel...</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Çok Güzel Hareketler <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">700 B görüntülenme <b><sup>.</sup></b> 6 gün önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="zengin.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="röportaj.jpg" alt=""></td>
+                                    <td><p id="videoa">ZENGİNLİK | Harbi Hayatlar | Röportaj Adam</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Röportaj Adam <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">8,4 Mn görüntülenme <b><sup>.</sup></b> 2 yıl önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="örümcek.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="noluyo.jpg" alt=""></td>
+                                    <td><p id="videoa">Elraenn 'in Kedisi ile Yaşadığı Viking Evi @Elraenn | Tuğ...</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Noluyo Ya ¿ <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">11 Mn görüntülenme <b><sup>.</sup></b> 1 yıl önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="hasancan.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="onedio.jpg" alt=""></td>
+                                    <td><p id="videoa">Hasan Can Kaya Sosyal Medyadan Gelen Soruları...</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Onedio <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">4,1 Mn görüntülenme <b><sup>.</sup></b> 2 yıl önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="savaş.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="soguks.jpg" alt=""></td>
+                                    <td><p id="videoa">GÜLERSEN, KAYBEDERSİN! | Soğuk Savaş S2E30 w/...</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Soğuk Savaş <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">5,2 Mn görüntülenme <b><sup>.</sup></b> 3 yıl önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="zombi.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="barıs.jpg" alt=""></td>
+                                    <td><p id="videoa">"The Last of Us"ın zombileştiren mantarları</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Barış Özcan <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">842 B görüntülenme <b><sup>.</sup></b> 4 gün önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="gol.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="bein.jpg" alt=""></td>
+                                    <td><p id="videoa">Uzaktan Atılan Goller | Spor Toto Süper Lig - İlk 14 Hafta...</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">BeIN SPORTS Türkiye <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">778 B görüntülenme <b><sup>.</sup></b> 1 ay önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="133.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="bkm.jpg" alt=""></td>
+                                    <td><p id="videoa">Çok Güzel Hareketler 133.Bölüm</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Çok Güzel Hareketler <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">978 B görüntülenme <b><sup>.</sup></b> 2 gün önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="54.shot.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="hsncn.jpg" alt=""></td>
+                                    <td><p id="videoa">Konuşanlar 54. Bölüm Shot / Konuk: Caner Cindoruk</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Konuşanlar <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">4 Mn görüntülenme <b><sup>.</sup></b> 11 ay önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="yatıya.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="noluyo.jpg" alt=""></td>
+                                    <td><p id="videoa">Oğuzhan Uğur | Ünlülerde Yatıya KaL !</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Noluyo Ya ¿ <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">7,8 Mn görüntülenme <b><sup>.</sup></b> 1 yıl önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="saba.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="hsncn.jpg" alt=""></td>
+                                    <td><p id="videoa">Konuşanlar 90. Bölüm Shot / Konuk: Saba Tümer</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Konuşanlar <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">3,9 Mn görüntülenme <b><sup>.</sup></b> 3 hfta önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                        <td>
+                            <a href="#"><table id="videokaresi">
+                                <tr>
+                                    <td colspan="2"><img id="video" src="klu.JPG" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td><img id="kanal" src="mami.jpg" alt=""></td>
+                                    <td><p id="videoa">KIRKLARELİ ÜNİVERSİTESİ YAZILIM MÜHENDİSLİĞİ...</p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">Muhammed CEYLAN <i class="fa fa-check-circle" aria-hidden="true"></i></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><p id="izlenme">3,8 B görüntülenme <b><sup>.</sup></b> 3 yıl önce</p></td>
+                                </tr>
+                            </table></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+    </body>
+</html>
